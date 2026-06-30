@@ -43,10 +43,11 @@ The pipeline executes a 4-stage multi-modal assembly process:
 Ensure you have FFmpeg installed on your system PATH. Then install the Python packages:
 
 ```bash
-    pip install groq edge-tts faster-whisper moviepy srt python-dotenvConfigure the Environment:
+    pip install groq edge-tts faster-whisper moviepy srt python-dotenv
 ```
-**Create a .env file in the root directory and add your Groq API key:**
+**Configure the Environment:**
 
+**Create a .env file in the root directory and add your Groq API key:**
 ```plaintext
 GROQ_API_KEY=your_api_key_here
 Create a folder named gameplay_pool/ in the root directory and drop at least one .mp4 background video inside it.
